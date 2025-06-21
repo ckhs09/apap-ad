@@ -1,0 +1,135 @@
+{
+	"pages": [
+	  {
+		"path": "pages/love/index",
+		"style": {
+		  "navigationBarTitleText": "表白墙",
+		  "navigationBarRightButton": {
+			"text": "管理",
+			"color": "#333"
+		  }
+		}
+	  },
+	  {
+		"path": "pages/post/detail",
+		"style": {
+		  "navigationBarTitleText": "帖子详情",
+		  "navigationBarRightButton": {
+			"text": "管理",
+			"color": "#333"
+		  }
+		}
+	  },	
+	  {
+		"path": "pages/post/create",
+		"style": {
+		  "navigationBarTitleText": "发布"
+		}
+	  },
+	  {
+		"path": "pages/market/index",
+		"style": {
+		  "navigationBarTitleText": "二手交易",
+		  "navigationBarRightButton": {
+			"text": "管理",
+			"color": "#333"
+		  }
+		}
+	  },
+	  {
+		"path": "pages/job/index",
+		"style": {
+		  "navigationBarTitleText": "兼职信息",
+		  "navigationBarRightButton": {
+			"text": "管理",
+			"color": "#333"
+		  }
+		}
+	  },
+
+	  {
+		"path": "pages/user/register",
+		"style": {
+		  "navigationBarTitleText": "注册"
+		}
+	  },
+	  {
+		"path": "pages/user/index",
+		"style": {
+		  "navigationBarTitleText": "个人中心",
+		  "navigationBarRightButton": {
+			"text": "管理",
+			"color": "#333"
+		  }
+		}
+	  },
+	  {
+		"path": "pages/login/index",
+		"style": {
+		  "navigationBarTitleText": "登录"
+		}
+	  },
+	  {
+		"path": "pages/user/posts",
+		"style": {
+		  "navigationBarTitleText": "我的发布",
+		  "enablePullDownRefresh": true
+		}
+	  },
+	  {
+		"path": "pages/user/settings",
+		"style": {
+		  "navigationBarTitleText": "修改资料"
+		}
+	  }
+	],
+	"tabBar": {
+	  "color": "#999999",
+	  "selectedColor": "#ff5500",
+	  "backgroundColor": "#ffffff",
+	  "list": [
+		{
+		  "pagePath": "pages/love/index",
+		  "text": "表白墙",
+		  "iconPath": "static/tabbar/love.png",
+		  "selectedIconPath": "static/tabbar/love-active.png"
+		},
+
+		{
+		  "pagePath": "pages/market/index",
+		  "text": "二手",
+		  "iconPath": "static/tabbar/market.png",
+		  "selectedIconPath": "static/tabbar/market-active.png"
+		},
+		{
+		  "pagePath": "pages/job/index",
+		  "text": "兼职",
+		  "iconPath": "static/tabbar/job.png",
+		  "selectedIconPath": "static/tabbar/job-active.png"
+		},
+		{
+		  "pagePath": "pages/user/index",
+		  "text": "我的",
+		  "iconPath": "static/tabbar/user.png",
+		  "selectedIconPath": "static/tabbar/user-active.png"
+		}
+		
+	  ]
+	},
+	"globalStyle": {
+	  "navigationBarTextStyle": "black",
+	  "navigationBarTitleText": "校园论坛",
+	  "navigationBarBackgroundColor": "#F8F8F8",
+	  "backgroundColor": "#F8F8F8"
+	},
+	"condition" : { 
+		"current": 0,
+		"list": [
+			{
+				"name": "", 
+				"path": "pages/love/index", 
+				"query": "" 
+				}
+		]
+	}
+  }

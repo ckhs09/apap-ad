@@ -1,0 +1,199 @@
+
+.detail-container[data-v-b14daf57] {
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  padding-bottom: 3.75rem;
+  box-sizing: border-box;
+}
+.post-content[data-v-b14daf57] {
+  background-color: #fff;
+  padding: 0.9375rem;
+  margin-bottom: 0.625rem;
+  overflow: visible;
+}
+.post-header[data-v-b14daf57] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+  overflow: visible;
+}
+.avatar[data-v-b14daf57] {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.625rem;
+}
+.user-info[data-v-b14daf57] {
+  flex: 1;
+}
+.username[data-v-b14daf57] {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333;
+}
+.time[data-v-b14daf57] {
+  font-size: 0.75rem;
+  color: #999;
+  display: block;
+}
+.content-text[data-v-b14daf57] {
+  font-size: 0.9375rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 0.625rem;
+}
+.image-list[data-v-b14daf57] {
+  margin-bottom: 0.625rem;
+  overflow: visible;
+}
+.image-grid[data-v-b14daf57] {
+  display: grid;
+  gap: 0.1875rem;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: visible;
+}
+.grid-image[data-v-b14daf57] {
+  width: 100%;
+  
+  border-radius: 0.25rem;
+  object-fit: cover;
+  overflow: visible;
+}
+
+/* 单张图片 */
+.grid-1[data-v-b14daf57] {
+  grid-template-columns: 1fr;
+}
+.grid-1 .grid-image[data-v-b14daf57] {
+ 
+  width: 12.5rem;
+  margin: 0 auto;
+}
+
+/* 两张图片 */
+.grid-2[data-v-b14daf57] {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-2 .grid-image[data-v-b14daf57] {
+  height: 11.25rem;
+}
+
+/* 四张图片 */
+.grid-4[data-v-b14daf57] {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* 其他数量的图片保持 3 列布局 */
+.grid-3[data-v-b14daf57], .grid-5[data-v-b14daf57], .grid-6[data-v-b14daf57], .grid-7[data-v-b14daf57], .grid-8[data-v-b14daf57], .grid-9[data-v-b14daf57] {
+  grid-template-columns: repeat(3, 1fr);
+}
+.post-footer[data-v-b14daf57] {
+  display: flex;
+  border-top: 0.03125rem solid #eee;
+  padding-top: 0.625rem;
+}
+.action[data-v-b14daf57] {
+  display: flex;
+  align-items: center;
+  margin-right: 1.25rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+.action .icon-font[data-v-b14daf57] {
+  margin-right: 0.3125rem;
+}
+.action .active[data-v-b14daf57] {
+  color: #ff5500;
+}
+.comment-list[data-v-b14daf57] {
+  background-color: #fff;
+  padding: 0.9375rem;
+  margin-bottom: 6.25rem;
+}
+.comment-title[data-v-b14daf57] {
+  font-size: 0.9375rem;
+  font-weight: bold;
+  margin-bottom: 0.9375rem;
+}
+.comment-item[data-v-b14daf57] {
+  display: flex;
+  margin-bottom: 0.9375rem;
+}
+.comment-right[data-v-b14daf57] {
+  flex: 1;
+  margin-left: 0.625rem;
+}
+.comment-info[data-v-b14daf57] {
+  margin-bottom: 0.3125rem;
+}
+.comment-content[data-v-b14daf57] {
+  font-size: 0.875rem;
+  color: #333;
+  line-height: 1.5;
+}
+.reply-list[data-v-b14daf57] {
+  background-color: #f8f8f8;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+  border-radius: 0.25rem;
+}
+.reply-item[data-v-b14daf57] {
+  font-size: 0.8125rem;
+  margin-bottom: 0.3125rem;
+}
+.reply-username[data-v-b14daf57] {
+  color: #576b95;
+}
+.reply-text[data-v-b14daf57] {
+  color: #999;
+  margin: 0 0.3125rem;
+}
+.reply-to[data-v-b14daf57] {
+  color: #576b95;
+}
+.comment-actions[data-v-b14daf57] {
+  margin-top: 0.3125rem;
+  font-size: 0.75rem;
+  color: #576b95;
+}
+.no-comment[data-v-b14daf57] {
+  text-align: center;
+  color: #999;
+  font-size: 0.875rem;
+  padding: 1.25rem 0;
+}
+.comment-input[data-v-b14daf57] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 0.625rem;
+  display: flex;
+  align-items: center;
+  border-top: 0.03125rem solid #eee;
+  z-index: 100;
+}
+.input[data-v-b14daf57] {
+  flex: 1;
+  height: 2.25rem;
+  background-color: #f8f8f8;
+  border-radius: 1.125rem;
+  padding: 0 0.9375rem;
+  font-size: 0.875rem;
+  margin-right: 0.625rem;
+}
+.send-btn[data-v-b14daf57] {
+  width: 3.75rem;
+  height: 2.25rem;
+  line-height: 2.25rem;
+  background-color: #ff5500;
+  color: #fff;
+  font-size: 0.875rem;
+  border-radius: 1.125rem;
+  padding: 0;
+}
+.send-btn[disabled][data-v-b14daf57] {
+  background-color: #ffa07a;
+  opacity: 0.7;
+}

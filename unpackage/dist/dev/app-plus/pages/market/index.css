@@ -1,0 +1,119 @@
+
+.market-container[data-v-3ddaf6af] {
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+.sort-bar[data-v-3ddaf6af] {
+  display: flex;
+  padding: 0.625rem;
+  background-color: #fff;
+  border-bottom: 0.03125rem solid #eee;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.sort-item[data-v-3ddaf6af] {
+  padding: 0.3125rem 0.9375rem;
+  font-size: 0.875rem;
+  color: #666;
+  margin-right: 0.625rem;
+  border-radius: 0.9375rem;
+  background-color: #f8f8f8;
+}
+.sort-item.active[data-v-3ddaf6af] {
+  color: #fff;
+  background-color: #ff5500;
+}
+.post-list[data-v-3ddaf6af] {
+  height: calc(100% - 3.125rem);
+  padding: 0.625rem;
+  box-sizing: border-box;
+}
+.post-item[data-v-3ddaf6af] {
+  background-color: #fff;
+  border-radius: 0.375rem;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.post-header[data-v-3ddaf6af] {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+}
+.avatar[data-v-3ddaf6af] {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 0.625rem;
+}
+.user-info[data-v-3ddaf6af] {
+  flex: 1;
+}
+.username[data-v-3ddaf6af] {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #333;
+}
+.time[data-v-3ddaf6af] {
+  font-size: 0.75rem;
+  color: #999;
+  display: block;
+}
+.post-content[data-v-3ddaf6af] {
+  font-size: 0.875rem;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 0.625rem;
+}
+.image-list[data-v-3ddaf6af] {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.3125rem;
+  margin-bottom: 0.625rem;
+}
+.image-list uni-image[data-v-3ddaf6af] {
+  width: 100%;
+  vertical-align: bottom;
+  border-radius: 0.25rem;
+}
+.post-footer[data-v-3ddaf6af] {
+  display: flex;
+  border-top: 0.03125rem solid #eee;
+  padding-top: 0.625rem;
+}
+.action[data-v-3ddaf6af] {
+  display: flex;
+  align-items: center;
+  margin-right: 1.25rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+.action .icon-font[data-v-3ddaf6af] {
+  margin-right: 0.3125rem;
+}
+.action .active[data-v-3ddaf6af] {
+  color: #ff5500;
+}
+.post-btn[data-v-3ddaf6af] {
+  position: fixed;
+  right: 0.9375rem;
+  bottom: 3.125rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: #ff5500;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.875rem;
+  z-index: 100;
+  box-shadow: 0 0.125rem 0.5rem #ff550066;
+}
+.loading[data-v-3ddaf6af], .no-more[data-v-3ddaf6af] {
+  text-align: center;
+  font-size: 0.75rem;
+  color: #999;
+  padding: 0.625rem 0;
+}
